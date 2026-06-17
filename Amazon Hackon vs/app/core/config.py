@@ -2,9 +2,9 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     # Meta Configuration
-    WHATSAPP_VERIFY_TOKEN: str = "MY_SUPER_SECRET_TOKEN_123"
-    WHATSAPP_API_TOKEN: str = "EAASr4mVOCrgBRrsuhl6m5RrZCcxHdCZCtZCw9X3YDDFINgSfBiG9kd6D1UZAnpdzkNAfuKJdvwuuYaxycGlq5NcidKekzJsAag1rz2tT2XWIqDvr4qZC6PSaFUIqFy9PqfLR2Vl1Jek1RUfyTsNzdrByoYBIgGKcEzVaKFEOVaZBZAqyY8kia4ZBjkt8ZCdIHDRJlHj4iiCZCJ5VjpScR1tGOFItEkKCZB0ofZBJy9EasDeRRFr6TaZBSL4CpWR52ZCrppsfVUb7tydiBoGPNZB1qHIMnkxi4r4" # System user access token from Meta
-    WHATSAPP_PHONE_NUMBER_ID: str = "1223461567506225"
+    WHATSAPP_VERIFY_TOKEN: str = "MY_SUPER_SECRET_TOKEN"
+    WHATSAPP_API_TOKEN: str = "Token" # System user access token from Meta
+    WHATSAPP_PHONE_NUMBER_ID: str = "Token"
 
     # AWS Configuration
     AWS_REGION: str = "us-east-1"
@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     # Switch to Claude 3.5 Sonnet (or 'anthropic.claude-3-haiku-20240307-v1:0' for faster/cheaper testing)
     BEDROCK_MODEL_ID: str = "anthropic.claude-sonnet-4-6"
     S3_BUCKET_NAME: str = "grocery-bot-voice-vault-kunal"
-    GEMINI_API_KEY: str = "AQ.Ab8RN6KHiHsyeZdoBEZaNfurEVg_zcWNkxRmzHJnyLjTojuIdw"
+    GEMINI_API_KEY: str = "AQ.Token"
 
     class Config:
         env_file = ".env"
