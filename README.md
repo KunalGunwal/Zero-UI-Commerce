@@ -1,4 +1,3 @@
-```markdown
 # 🛒 Zero-UI Commerce
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
@@ -157,6 +156,3 @@ To ensure absolute reliability during live hackathon presentations, a "Frictionl
 Sending the keyword "masala" (e.g., *"thik h ek paneer masala bhi add krdo"*) will instantly intercept the LLM call, bypass network latency, and forcefully inject 1 packet of Everest Paneer Masala into the cart. This allows for a flawless demonstration of the Chef's Tip upsell feature.
 
 
-```
-
-```
